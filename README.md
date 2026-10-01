@@ -1,17 +1,17 @@
-# 🏦 Core ATM Simulation Engine
+#  Core ATM Simulation Engine
 
 A lightweight, high-precision console-based ATM banking simulator built in pure Java. This project demonstrates enterprise-grade backend coding standards, strict data encapsulation, and mathematically bulletproof financial transaction tracking.
 
 ---
 
-## 🎯 Project Core Objectives
+##  Project Core Objectives
 * **Absolute Financial Accuracy:** Employs `java.math.BigDecimal` to eradicate floating-point rounding bugs entirely.
 * **Interface-Driven Architecture:** Utilizes a strict decoupling pattern separating core business specifications from functional implementation layers.
 * **Secure Data Management:** Implements private instance scopes to protect account data models from unauthorized state mutations.
 
 ---
 
-## 🛠️ Architecture & Design Layers
+##  Architecture & Design Layers
 
 The application is structured into four highly isolated components following professional software engineering tiers:
 
@@ -22,14 +22,14 @@ The application is structured into four highly isolated components following pro
 
 ---
 
-## 📊 Why BigDecimal? (The Math Guardrail)
+##  Why BigDecimal? (The Math Guardrail)
 Standard primitive variables (`double`, `float`) utilize binary floating-point calculations which introduce trailing fractional errors (e.g., `1.00 - 0.90` dynamically evaluating to `0.09999999999999998`). 
 
 This project strictly utilizes `BigDecimal` string constructors and explicit object methods (`.add()`, `.subtract()`, `.compareTo()`) to guarantee absolute base-10 calculation precision—ensuring compliance with standard corporate banking ledger requirements.
 
 ---
 
-## 🚀 Execution & Quick Start
+##  Execution & Quick Start
 
 ### Prerequisites
 * Java Development Kit (JDK) 8 or higher
